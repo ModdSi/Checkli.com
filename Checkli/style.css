@@ -1,0 +1,349 @@
+.navbar{
+
+    background-color: rgb(255, 255, 255);
+
+}
+
+.navbar a{
+
+    cursor: pointer;
+    float: right;
+    color: #000000;
+  text-align: center;
+  padding: 20px 24px;
+ 
+  text-decoration: none;
+  font-size: 15px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+   
+    
+}
+
+.navbar a:hover{
+
+    background-color: #000000;
+    color: aliceblue;
+    border-radius: 10px;
+    transition: background-color 0.4s;
+   
+  
+    
+   
+
+}
+
+
+
+.logo a{
+
+    float: left;
+    color: #000000;
+  text-align: center;
+  padding: 15px 50px;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+
+
+.main-page {
+
+margin-left: 20%;
+padding-top: 10%;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+
+
+
+.tasks {
+
+  background-color: rgb(255, 255, 255);;
+  width: 700px;
+  height: auto;
+ margin-right: auto;
+ margin-left: auto;
+ 
+ border-radius: 20px;
+ box-shadow:0px 5px 9px rgb(160, 160, 160) ;
+ padding: 10px;
+
+
+
+}
+
+
+.info{
+  direction: rtl;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  float: right;
+  width: 70%;
+  /* margin-top: 15px; */
+  margin-right: 50px;
+  color: #3c3c3c;
+  
+  
+
+}
+
+.action{
+  
+  width: 30%;
+  /* margin-top: 10px; */
+ 
+
+
+
+
+
+}
+
+.circ{
+
+  margin-top: 15px;
+  margin-right: 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  border-style: none;
+  padding-top: 5px;
+  cursor: pointer;
+}
+
+.task{
+
+ direction: rtl;
+box-shadow: rgba(0, 0, 0, 0.5);
+
+}
+
+
+.done{
+  background-color: #cccccc;
+  border-radius: 16px;
+
+}
+
+.task :hover{
+
+  background-color: #cccccc;
+ border-radius: 16px;
+
+ 
+
+ 
+
+}
+
+.circ :hover{
+
+  background-color: #3c3c3c;
+  color: #d1d1d1;
+  border-radius: 5px;
+  transition: border-radius 0.4s;
+  transition: font-weight 0.4s;
+  font-weight: 100;
+
+}
+ 
+
+.circ :active{
+  background-color: #f8f8f8;
+  color: #3f3f3f;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.To-Do{
+
+  height: 60px;
+  width: 500px;
+  margin-top: 100px;
+  background-color: rgb(255, 255, 255);
+  box-shadow:0px 5px 9px rgb(160, 160, 160) ;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+ padding: 10px;
+
+
+
+
+}
+
+.submit {
+font-size: 30px;
+border: none;
+width: 100px;
+
+border-radius: 10px;
+cursor: pointer;
+
+
+
+}
+
+
+.ss :hover{
+
+background-color: #7e7e7e;
+border-radius: 15px;
+transition: border-radius 0.4s;
+
+
+
+color: #ffffff;
+
+}
+
+.ss :active{
+
+  background-color: #ececec;
+  color: #3b3b3b;
+
+
+
+}
+
+
+
+
+.To-Do #type{
+
+  height: 30px;
+  width: 300px;
+  border-radius: 100px;
+  
+  
+  
+
+ 
+}
+
+.To-Do .container{
+  text-align: center;
+  padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+.bg-white{
+
+  background-color: #3a3a3a;
+  text-align: center;
+  bottom: 300px;
+  color: #e4e4e4;
+  padding: 20px;
+  margin-top: 300px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+
+
+body {
+  background: #d2d2d2;
+  background: -webkit-linear-gradient(to top, #d1d1d1, #ffffff);
+  background: linear-gradient(to top, #d8d8d8, #ffffff);
+  min-height: 100vh;
+}
+
+
+
+
+
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  
+  
+}
+
+.modal-content {
+  background-color: white;
+  margin: 20% auto;
+  padding: 20px;
+  width: 700px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+
+.editbut :active{
+  background-color: #646464;
+  color: #ffffff;
+  
+
+
+
+}
+
+.editbut :hover{
+
+  background-color: #4e4e4e;
+  color: #ffffff;
+  cursor: pointer;
+
+
+
+}
